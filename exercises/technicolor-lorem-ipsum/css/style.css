@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+h1{
+    color: cadetblue;
+    background-color: brown;
+    font-style: italic;
+    font-size: xx-large;
+    
+}
+
+#p-1 {
+    color: cornflowerblue;
+    font-style: italic;
+    background-color: aqua;
+}
+
+#p-2 {
+    color: aliceblue;
+    background-color: black;
+    font-weight: 600;
+}
+
+#p-3 {
+    color:palegreen;
+    font-size: xx-small;
+    background-color: brown;
+}
+
+#p-4 {
+    color: gold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', 
+    sans-serif;
+    background-color: indianred;
+}
+
+span {
+        font-size: x-large;
+        color: blue;
+        font-size: medium;
+        font-style: oblique;
+        background-color: aquamarine;
+}
+#Boy-1 {
+    color: teal;
+    font-family: 'Gill Sans', 'Gill Sans MT', 
+    Calibri, 'Trebuchet MS', sans-serif;
+    font-size: x-large;
+    font-weight: 900;
+}
