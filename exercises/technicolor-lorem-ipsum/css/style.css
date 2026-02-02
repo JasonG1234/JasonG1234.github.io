@@ -12,7 +12,7 @@ h1{
     background-color: brown;
     font-style: italic;
     font-size: xx-large;
-    
+
 }
 
 #p-1 {
@@ -53,4 +53,5 @@ span {
     Calibri, 'Trebuchet MS', sans-serif;
     font-size: x-large;
     font-weight: 900;
+    background-color: yellowgreen;
 }
