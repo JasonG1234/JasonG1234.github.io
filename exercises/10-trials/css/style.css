@@ -6,3 +6,74 @@ body {
     margin: 0px;
     font-family: sans-serif;
 }
+
+#trial-1 {
+    color: green;
+}
+
+#trial-2 {
+    color: #F711F7;
+}
+
+#trial-3 {
+    color: red;
+
+}
+
+#trial-33 {
+    color: goldenrod;
+
+}
+
+#trial-333 {
+    color: blue;
+
+}
+
+#trial-4 {
+    background-color: skyblue;
+}
+
+#trial-5 {
+    background-color: yellow;
+}
+
+#trial-6 {
+    font-weight: 700;
+}
+
+#trial-7 {
+    font-weight: 700;
+}
+
+#trial-77 {
+    font-style: italic;
+}
+
+#trail-8 {
+    text-decoration: underline;
+}
+
+#trial-9 {
+    font-size: 36px;
+    font-align: center;
+}
+
+#trial-10 {
+    font-size: 12px;
+    text-align: center;
+}
+
+#trial-100 {
+    font-size: 48px;
+    text-align: center;
+}
+
+#trial-1000 {
+    font-size: 24px;
+    text-align: center;
+}
+
+#trial10 {
+    text-align: center;
+}
