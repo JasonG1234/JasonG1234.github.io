@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+p {
+    color: burlywood;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+.para-1 {
+    color: blueviolet;
+    margin: 50px;
+    width: 500px;
+}
+
+.shadowmane {
+    background-color: black;
+    color: blue;
+    box-shadow: 10px 10px 10px;
+    /* box-shadow: x-offset y-offset blur-raduis 
+    color; */
+}

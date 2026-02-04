@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.pale {
+    background: linear-gradient(#0A49A9 , #7BA9EF) ;
+    margin: 38px;
+    padding: 38px;
+    text-align: center;
+    box-shadow: 5px 5px  10px ;
+    /* box-shadow: x-offset y-offset blur-raduis color; */
+}
+
+.Swatches-blue {
+    padding: 20px;
+    margin: 0px;
+}
+
+#color-1 {
+    background-color: #0A49A9;
+}
+
+#color-2 {
+    background-color: #1F6EE5;
+}
+
+#color-3 {
+    background-color: #619AEA;
+}
+
+#color-4 {
+    background-color: #7BA9EF;
+}
+
+#color-5 {
+    background-color: #A0C5FD;
+}
+
+.pale2 {
+    background: linear-gradient(#303030 , #262626) ;
+    margin: 38px;
+    padding: 38px;
+    text-align: center;
+    color: rgb(0, 153, 255);
+    box-shadow: 5px 5px  10px ;
+    /* box-shadow: x-offset y-offset blur-raduis color; */
+}
+
+.Swatches-Blackg {
+    padding: 20px;
+    margin: 0px;
+}
+
+#color-6 {
+    background-color: #151515;
+}
+
+#color-7 {
+    background-color: #1E1E1E;
+}
+
+#color-8 {
+    background-color: #262626;
+}
+
+#color-9 {
+    background-color: #262626;
+}
+
+#color-10 {
+    background-color: #303030;
+}
+
+.pale3 {
+    background: linear-gradient( #871313, #6C1010) ;
+    margin: 38px;
+    padding: 38px;
+    text-align: center;
+    color: rgb(4, 236, 4);
+    box-shadow: 5px 5px  10px ;
+    /* box-shadow: x-offset y-offset blur-raduis color; */
+}
+
+.Swatches-Reds {
+    padding: 20px;
+    margin: 0px;
+}
+
+#color-11 {
+    background-color: #5E0D0D;
+}
+
+#color-12 {
+    background-color: #6C1010 ;
+}
+
+#color-13 {
+    background-color: #771212;
+}
+
+#color-14 {
+    background-color: #7C1212;
+}
+
+#color-15 {
+    background-color: #871313;
+}
