@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#idea1 {
+    width: 200px;
+    display: inline-block;
+}
+
+#idea2 {
+    width: 200px;
+    display: inline-block;
+    background-color: aqua;
+}
+
+.media-text {
+    width: 200px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.media {
+    vertical-align: middle;
+}
+
+.media44-text {
+    background-color: aqua;
+    border: solid 3px;
+}

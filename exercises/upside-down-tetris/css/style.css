@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#containter {
+    width: 500px;
+    min-height: 100vh;
+    background-color: grey;
+    font-size: 0px;
+}
+
+.block {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+
+.red {
+    background-color: red;
+    border: 25px outset rgb(255, 3, 3);
+}
+
+.blue {
+    background-color: blue;
+    border: 25px outset rgb(0, 0, 255);
+}
+
+.green {
+    background-color: green;
+    border: 25px outset green;
+}
+
+.purple {
+    background-color: purple;
+    border: 25px outset purple;
+}
+
+.orange {
+    background-color: orange;
+    border: 25px outset orange;
+}
