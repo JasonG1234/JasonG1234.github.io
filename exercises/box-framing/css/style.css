@@ -9,6 +9,7 @@ body {
 
 #sp-man {
     width: 250px;
+    display: inline-block;
 }
 
 .block-red {
@@ -16,23 +17,24 @@ body {
     width: 350px;
     height: 260px;
     border: 20px solid black;
-    margin: 10px;
+    margin: 20px;
     padding: 30px;
     display: inline-block;
 }
 
 #spaces {
-    width: 250px;
+    width: 150px;
+    display: inline-block;
 }
 
 .block {
     background-color: rgb(175, 175, 175);
-    width: 350px;
+    width: 250px;
     border: 20px solid black;
     border-radius: 50px;
-    margin: 10px;
+    margin: 20px;
     padding: 30px;
-   
+   display: inline-block;
 }
 
 .text {
@@ -41,7 +43,7 @@ body {
     height: 150px;
     border: 20px solid black;
     border-radius: 50px;
-    margin: 10px;
+    margin: 20px;
     padding: 10px;
-    
+    display: inline-block;
 }
