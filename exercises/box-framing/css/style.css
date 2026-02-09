@@ -9,7 +9,6 @@ body {
 
 #sp-man {
     width: 250px;
-    display: inline-block;
 }
 
 .block-red {
@@ -24,7 +23,6 @@ body {
 
 #spaces {
     width: 150px;
-    display: inline-block;
 }
 
 .block {
