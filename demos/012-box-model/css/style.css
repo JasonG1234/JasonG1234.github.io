@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+div {
+    /* 
+        border-width: 5px;
+        border-style: solid;
+        border-color: aqua; 
+    */
+    
+    border: 10px dashed green;
+    margin: 24px;
+    padding: 24px 64px;
+    background-color: aqua;
+}
+
+p {
+    border: 10px dotted blue;
+    margin: 60px;
+    padding: 40px 60px;
+    background-color: cornflowerblue;
+}
+
+a {
+    border: 2px dotted blue;
+    margin: 2px;
+    padding: 4px 6px;
+}
