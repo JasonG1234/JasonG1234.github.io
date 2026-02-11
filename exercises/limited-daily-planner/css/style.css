@@ -15,6 +15,7 @@ body {
     margin: 20px;
     height: 350px;
     width: 500px;
+    display: inline-block;
 }
 
 #afternoon {
@@ -24,6 +25,7 @@ body {
     margin: 20px;
     height: 350px;
     width: 500px;
+    display: inline-block;
 }
 
 #evening {
@@ -33,27 +35,27 @@ body {
     margin: 20px;
     height: 350px;
     width: 500px;
+    display: inline-block;
 }
 
 ul {
     background-color: rgb(148, 252, 221);
     height: 220px;
     width: 400px;
-    vertical-align: top;
     padding: 40px;
-    
+    display: inline-block;
+
 }
 
 .button {
     background-color: aliceblue;
-    border: 2px solid;
     color: darkblue;
-    padding: 5px 10px;
+    padding: 2px 10px;
     border-radius: 10px;
     font-size: 12px;
-    font-weight: bold;
     display: inline-block;
     text-decoration: none;
+    
 }
 
 .completed {
@@ -63,8 +65,10 @@ ul {
 
 .important {
     color: red;
+    
 }
 
 ul.important.completed {
     text-decoration: line-through;
+    
 }
