@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    
+}
+
+#morning {
+    background-color: aqua;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px;
+    height: 350px;
+    width: 500px;
+}
+
+#afternoon {
+    background-color: rgb(255, 145, 248);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px;
+    height: 350px;
+    width: 500px;
+}
+
+#evening {
+    background-color: rgb(0, 241, 93);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px;
+    height: 350px;
+    width: 500px;
+}
+
+ul {
+    background-color: rgb(148, 252, 221);
+    height: 220px;
+    width: 400px;
+    vertical-align: top;
+    padding: 40px;
+    
+}
+
+.button {
+    background-color: aliceblue;
+    border: 2px solid;
+    color: darkblue;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-size: 12px;
+    font-weight: bold;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.completed {
+    text-decoration: line-through;
+    
+}
+
+.important {
+    color: red;
+}
+
+ul.important.completed {
+    text-decoration: line-through;
+}

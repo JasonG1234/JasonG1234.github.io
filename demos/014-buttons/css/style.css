@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.button {
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    min-width: 24px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.simple {
+    border: 2px solid;
+    border-radius: 20px;
+    background-color: lightblue;
+    padding: 10px;
+}
+
+.background {
+    background-color: lavender;
+    color: blue;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.border {
+    border: 2px solid darkblue;
+    color: darkblue;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
