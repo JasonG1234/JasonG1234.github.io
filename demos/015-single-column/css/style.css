@@ -7,8 +7,22 @@ body {
     font-family: sans-serif;
 }
 
+h1 {
+    margin: 0px;
+}
+
+.darker {
+    background-color: rgb(98, 39, 154);
+    color: aqua;
+    padding: 48px 0px;
+}
+
+.lighter {
+    background-color: lightcoral;
+    padding: 48px 0px;
+}
+
 .single-column {
-    background-color: lightblue;
     width: 50%;
     max-width: 500px;
     min-width: 400px;
