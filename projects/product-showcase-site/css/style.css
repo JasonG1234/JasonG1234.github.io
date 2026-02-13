@@ -10,6 +10,20 @@ body {
 
 #single-column1 {
     background-color: rgb(31, 29, 29);
+}
+
+#single-column2 {
+    background-color: gray;
+}
+
+#single-column3 {
+    background-color: rgb(238, 238, 9);
+    
+}
+
+
+#section-1 {
+    background-color: rgb(31, 29, 29);
     color: rgb(190, 190, 42);
     width: 50%;
     max-width: 500px;
@@ -18,7 +32,7 @@ body {
     padding: 30px;
 }
 
-#single-column2 {
+#section-2 {
     background-color: gray;
     color: rgb(224, 224, 24);
     width: 50%;
@@ -28,7 +42,7 @@ body {
     padding: 30px;
 }
 
-#single-column3 {
+#section-3 {
     background-color: rgb(238, 238, 9);
     color: rgb(0, 0, 0);
     width: 50%;
@@ -47,7 +61,7 @@ p {
 }
 
 .Headers {
-    margin: 20px 0px 20px 24px;
+    margin: 20px 0px 50px 24px;
     font-family: "Roboto Condensed", sans-serif;
     font-optical-sizing: auto;
     font-weight: 100;
