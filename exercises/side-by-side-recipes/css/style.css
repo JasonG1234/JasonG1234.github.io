@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.card-container {
+    display: flex;
+    gap: 20px;
+}
+
+.single-column {
+    display: flex;
+    width: 50%;
+    max-width: 600px;
+    min-width: 600px;
+    margin: 0px auto;
+}
+
+.side-by-side-container {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    padding: 20px;
+    margin: 30px 0px 0px 0px;
+}
+
+.side-by-side-container .large-container, 
+.side-by-side-container h2 {
+    flex: 1;
+}
+
+.side-by-side-container h2 {
+    margin: 0px 0px 0px 0px;
+}
+
+.side-by-side-container .image-container img {
+    width: 100%;
+}
+
+.button {
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    min-width: 24px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.border {
+    border: 2px solid rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#three-cards p {
+    padding: 0px 0px 0px 0px;
+    font-size: smaller;
+}
+
+#center {
+    text-align: center;
+}
+
+#imgs {
+    padding: 0px 0px 0px 40px;
+}

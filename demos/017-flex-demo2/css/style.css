@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.card-container {
+    display: flex;
+    gap: 20px;
+}
+
+.single-column {
+    display: flex;
+}
+
+.side-by-side-container {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+}
+
+.side-by-side-container .large-container, 
+.side-by-side-container h2 {
+    flex: 1;
+}
+
+.side-by-side-container .image-container img {
+    width: 100%;
+}
