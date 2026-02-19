@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#navbar {
+    background-color: green;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+
+#navbar a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 26px;
+}
+
+#navbar #logo {
+    margin-right: auto;
+}
+
+.cta {
+    background-color: aqua;
+    color: chocolate;
+}
+
+img {
+    padding: 30px;
+}
