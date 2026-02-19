@@ -13,7 +13,7 @@ body {
     align-items: center;
     border: 2px solid black;
     gap: 20px;
-    align-content: right;
+    justify-content: right;
 }
 
 #navbar a {
@@ -34,4 +34,8 @@ body {
 
 #heading {
     text-align: center;
+}
+
+#logo {
+    margin-right: auto;
 }
