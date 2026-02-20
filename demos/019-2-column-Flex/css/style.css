@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#two-column {
+    display: flex;
+}
+
+#sidebar-content {
+    background-color: aqua;
+    width: 150px;
+    padding: 20px;
+    border-right: 2px solid rgb(146, 146, 146);
+}
+
+#sidebar-content h2 {
+    padding: 0px;
+    border-bottom: 2px solid;
+}
+
+#sidebar-content ul {
+    list-style-type: none;
+    padding: 0px;
+}
+
+#sidebar-content a {
+    text-decoration: none;
+    color: rgb(0, 0, 128);
+}
+
+#main-content {
+    background-color: aquamarine;
+    flex: 1;
+    padding: 20px;
+}
+
