@@ -11,6 +11,16 @@ body {
     display: flex;
 }
 
+#single-container {
+    background-color: rgb(101, 214, 252);
+    width: 50%;
+    max-width: 550px;
+    min-width: 550px;
+    margin: 0px auto;
+    height: 2000px;
+    
+} 
+
 #sidebar-content {
     background-color: rgb(116, 192, 255);
     width: 200px;
