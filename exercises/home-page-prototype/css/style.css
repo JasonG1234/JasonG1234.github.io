@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#navbar {
+    background-color: rgb(20, 84, 20);
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+#navbar a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 20px 50px 20px 20px;
+}
+
+#navbar h3 {
+    color: aliceblue;
+    margin: 0px 900px 0px 0px;
+}
+
+#centered-hero {
+    background-image: url(../images/pexels-alex-ohan-204757441-27395457.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#centered-hero .hero-content {
+    color: rgb(120, 255, 123);
+    text-align: center;
+}
+
+.hero-content h1 {
+    font-size: 60px;
+    background-color: rgba(0, 0, 0, 0.412);
+    padding: 50px 50px 50px 0px;
+    border-radius: 50px;
+    margin: 10px;
+}
+
+.button {
+    color: black;
+    display: inline-block;
+    min-width: 24px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.border {
+    border: 5px solid rgb(29, 123, 60);
+    background-color: rgb(111, 60, 23);
+    color: rgb(22, 222, 25);
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
