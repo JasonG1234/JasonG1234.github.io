@@ -12,21 +12,24 @@ body {
     display: flex;
     align-items: center;
     justify-content: end;
+    margin: 0px auto;
 }
 
 #navbar a {
     color: rgb(255, 255, 255);
     text-decoration: none;
-    padding: 20px 50px 20px 20px;
+    padding: 20px 0px 20px 0px;
+    margin: 0px auto;
+    text-align: center;
 }
 
 #navbar h3 {
     color: aliceblue;
-    margin: 0px 900px 0px 0px;
+    margin: 0px auto;
 }
 
 #centered-hero {
-    background-image: url(../images/pexels-alex-ohan-204757441-27395457.jpg);
+    background-image: url(../images/pexels-alex-ohan-204757441-27395457-2.jpg);
     background-size: cover;
     background-position: center center;
     height: 100vh;
@@ -43,9 +46,10 @@ body {
 .hero-content h1 {
     font-size: 60px;
     background-color: rgba(0, 0, 0, 0.412);
-    padding: 50px 50px 50px 0px;
+    padding: 50px 0px 50px 0px;
     border-radius: 50px;
     margin: 10px;
+    text-align: center;
 }
 
 .button {
