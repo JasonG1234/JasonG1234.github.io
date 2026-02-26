@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#centered-hero {
+    background-image: url(../images/pexels-pixabay-33109.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#centered-hero .hero-content {
+    background-color: rgba(0, 0, 0, 0.41);
+    padding: 25px;
+    border-radius: 50px;
+    margin: 10px;
+}
+
+#centered-hero .hero-content {
+    color: white;
+    text-align: center;
+}
+
+.single-column {
+    width: 50%;
+    max-width: 2000px;
+    min-width: 1100px;
+    margin: 0px auto;
+}
+
+.masonry-horizontal-gallery {
+    background-color: rgb(255, 242, 223);
+    border: 10px solid burlywood;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 10px;
+}
+
+.masonry-horizontal-gallery img {
+    height: 250px;
+    flex: 1;
+    object-fit: cover;
+}
