@@ -24,7 +24,7 @@ body {
 }
 
 #centered-hero .hero-content {
-    color: white;
+    color: rgb(190, 252, 255);
     text-align: center;
 }
 
@@ -37,11 +37,12 @@ body {
 
 .masonry-horizontal-gallery {
     background-color: rgb(255, 242, 223);
-    border: 10px solid burlywood;
+    border: 20px solid burlywood;
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
-    padding: 10px;
+    padding: 40px;
+    margin: 40px;
 }
 
 .masonry-horizontal-gallery img {
