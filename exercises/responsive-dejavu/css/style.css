@@ -32,6 +32,7 @@ body {
 .single-column {
     width: 50%;
     max-width: 2000px;
+    min-width: 500px
     margin: 0px auto;
 }
 
@@ -49,7 +50,7 @@ body {
     height: 250px;
     flex: 1;
     object-fit: cover;
-    
+
 }
 
 #nav {
@@ -84,7 +85,9 @@ body {
     }
 }
 
-@media screen and ( max-width: 600px) {
+@media screen and 
+    ( max-width: 600px)   
+    {
 
     .masonry-horizontal-gallery {
         flex-direction: column;
