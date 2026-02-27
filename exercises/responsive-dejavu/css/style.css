@@ -83,3 +83,20 @@ body {
         font-size: 30px;
     }
 }
+
+@media screen and (max-width: 600px) {
+
+    .masonry-horizontal-gallery {
+        border: 20px solid burlywood;
+        grid-template-columns: 1fr;
+        margin: 20px 5px;
+        background-color: aqua;
+        width: 400px;
+    }
+
+    .masonry-horizontal-gallery img {
+        padding: 0px;
+        margin: 0px;
+        width: 50%;
+    }
+}
