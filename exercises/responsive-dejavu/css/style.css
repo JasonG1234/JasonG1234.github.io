@@ -31,9 +31,9 @@ body {
 
 .single-column {
     width: 50%;
+    margin: 0px auto;
     max-width: 2000px;
     min-width: 500px
-    margin: 0px auto;
 }
 
 .masonry-horizontal-gallery {
