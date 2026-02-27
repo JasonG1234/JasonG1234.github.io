@@ -84,12 +84,12 @@ body {
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and ( max-width: 600px) {
 
     .masonry-horizontal-gallery {
         grid-template-columns: 1fr;
         margin: 20px 5px;
-        width: 400px;
+        width: 300px;
     }
 
     .masonry-horizontal-gallery img {
