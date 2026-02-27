@@ -32,7 +32,6 @@ body {
 .single-column {
     width: 50%;
     max-width: 2000px;
-    min-width: 1400px;
     margin: 0px auto;
 }
 
@@ -50,6 +49,7 @@ body {
     height: 250px;
     flex: 1;
     object-fit: cover;
+    
 }
 
 #nav {
@@ -72,7 +72,7 @@ body {
     padding: 30px 20px;
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 550px) {
 
     #nav {
         flex-direction: column;
@@ -87,6 +87,7 @@ body {
 @media screen and ( max-width: 600px) {
 
     .masonry-horizontal-gallery {
+        flex-direction: column;
         grid-template-columns: 1fr;
         margin: 20px 5px;
         width: 300px;
@@ -95,6 +96,6 @@ body {
     .masonry-horizontal-gallery img {
         padding: 0px;
         margin: 0px;
-        width: 50%;
+        width: 100%;
     }
 }
