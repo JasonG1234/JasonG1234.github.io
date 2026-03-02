@@ -65,7 +65,7 @@ body {
     width: 100%;
     margin: 0px auto;
     max-width: 2000px;
-    min-width:500px
+    min-width: 500px;
 }
 
 .masonry-horizontal-gallery {
@@ -114,6 +114,22 @@ body {
     
     #single-column h1 {
         font-size: 30px;
+    }
+
+    #hero .hero-content {
+        align-items: center;
+        
+    }
+}
+
+@media screen and (max-width: 550px) {
+
+    #hero .hero-content {
+        background-color: rgba(0, 234, 255, 0.854);
+        align-items: center;
+        flex-direction: column;
+        margin: 2200px;
+        color: rgb(0, 0, 0);
     }
 }
 
