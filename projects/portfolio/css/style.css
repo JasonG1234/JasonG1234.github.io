@@ -117,7 +117,7 @@ body {
     }
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 600px) {
 
     .card-container {
         flex-direction: column;
@@ -131,7 +131,7 @@ body {
     .masonry-horizontal-gallery {
         flex-direction: column;
         grid-template-columns: 1fr;
-        margin: 20px 4px;
+        margin: 20px 5px;
         width: 300px;
     }
 
